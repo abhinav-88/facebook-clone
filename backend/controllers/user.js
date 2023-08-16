@@ -52,7 +52,7 @@ exports.register = async (req, res) => {
       first_name,
       last_name,
       email,
-      password,
+      password: cryptedPassword,
       username,
       bYear,
       bMonth,
